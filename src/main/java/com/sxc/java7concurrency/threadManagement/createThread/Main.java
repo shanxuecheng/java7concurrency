@@ -54,11 +54,11 @@ public class Main {
 
 	private static void writeThreadInfo(PrintWriter pw, Thread thread,
 			State state) {
-		pw.printf("Main : Id %d - %s\n", thread.getId(), thread.getName());
-		pw.printf("Main : Priority: %d\n", thread.getPriority());
-		pw.printf("Main : Old State: %s\n", state);
-		pw.printf("Main : New State: %s\n", thread.getState());
-		pw.printf("Main : ************************************\n");
+		pw.printf("Main : Id %d - %s\r\n", thread.getId(), thread.getName());
+		pw.printf("Main : Priority: %d\r\n", thread.getPriority());
+		pw.printf("Main : Old State: %s\r\n", state);
+		pw.printf("Main : New State: %s\r\n", thread.getState());
+		pw.printf("Main : ************************************\r\n");
 	}
 
 }
